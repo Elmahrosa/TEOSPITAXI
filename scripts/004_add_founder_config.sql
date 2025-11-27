@@ -27,7 +27,8 @@ VALUES
   ('treasury_wallet', 'aams1969'),
   ('founder_username', 'aams1969'),
   ('telegram_channel', 'https://t.me/teospitaxi'),
-  ('whatsapp_channel', 'https://wa.me/message/TEOSPITAXI')
+  -- Updated to real WhatsApp channel link
+  ('whatsapp_channel', 'https://whatsapp.com/channel/0029VbBkdhP4IBhDSAW6Gw2u')
 ON CONFLICT (key) DO UPDATE
 SET value = EXCLUDED.value, updated_at = NOW();
 

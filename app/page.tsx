@@ -227,7 +227,7 @@ export default function HomePage() {
                 </Button>
               </a>
               <a
-                href="https://wa.me/message/TEOSPITAXI"
+                href="https://whatsapp.com/channel/0029VbBkdhP4IBhDSAW6Gw2u"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
@@ -265,7 +265,7 @@ export default function HomePage() {
                 {isRTL ? "تيليجرام" : "Telegram"}
               </a>
               <a
-                href="https://wa.me/message/TEOSPITAXI"
+                href="https://whatsapp.com/channel/0029VbBkdhP4IBhDSAW6Gw2u"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-foreground transition-colors"

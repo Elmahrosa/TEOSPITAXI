@@ -3,11 +3,12 @@ import type { Metadata, Viewport } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { LocaleProvider } from "@/contexts/locale-context"
+import { VerificationBanner } from "@/components/verification-banner"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Made with App Studio",
-  description: "TeosPiTaxi - Hello World⭐️ PAY WITH PI",
+  title: "TeosPiTaxi - Pi Network Mobility Platform",
+  description: "TeosPiTaxi - Transparent mobility platform powered by Pi Network",
     generator: 'v0.app'
 }
 
@@ -34,7 +35,6 @@ html {
   --font-sans: ${GeistSans.variable};
   --font-mono: ${GeistMono.variable};
 }
-/* Added RTL support styles */
 html[dir="rtl"] {
   direction: rtl;
 }
@@ -44,7 +44,10 @@ html[dir="rtl"] body {
         `}</style>
       </head>
       <body>
-        <LocaleProvider>{children}</LocaleProvider>
+        <LocaleProvider>
+          <VerificationBanner />
+          {children}
+        </LocaleProvider>
       </body>
     </html>
   )

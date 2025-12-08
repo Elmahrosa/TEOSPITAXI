@@ -71,7 +71,7 @@ export async function POST(request: NextRequest) {
     }
 
     const totalAmount = completedPayment.amount
-    const treasuryFee = trip.treasury_fee || totalAmount * 0.1
+    const treasuryFee = trip.treasury_fee || totalAmount * 0.15
     const agentCommission = trip.agent_commission || 0
     const driverPayout = trip.driver_payout || totalAmount - treasuryFee - agentCommission
 
@@ -152,7 +152,7 @@ export async function POST(request: NextRequest) {
       amount: treasuryFee,
       transaction_type: "treasury_fee",
       status: "completed",
-      metadata: { type: "platform_fee", percentage: 10 },
+      metadata: { type: "platform_fee", percentage: 15 },
     })
 
     // Log to transparency

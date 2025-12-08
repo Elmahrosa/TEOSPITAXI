@@ -75,7 +75,7 @@ function getBasicAnswer(message: string): string {
 9. Get matched with a driver
 10. Track your ride in real-time
 
-Payment is automatically split: 85% to driver, 10% to platform, 5% to referring agent.
+Payment is automatically split: 80% to driver, 15% to founder, 5% to referring agent.
 
 Need help? Just ask me more questions!`
   }
@@ -93,8 +93,8 @@ Fare Formula: (Distance × km_rate) + (Time × min_rate) × surge_multiplier
 All pricing is transparent - you see the exact calculation before booking. First month promotional rates may be available.
 
 Payment splits:
-- 85% → Driver
-- 10% → TEOS Treasury
+- 80% → Driver
+- 15% → TEOS Treasury (Founder)
 - 5% → Referring Agent
 
 Want to see a fare estimate? Tell me your pickup and destination!`
@@ -147,7 +147,7 @@ TeosPiTaxi is the world's FIRST Pi-native ride-sharing platform!`
 6. Start earning!
 
 **Earnings:**
-- You keep 85% of every fare
+- You keep 80% of every fare
 - Instant Pi payment after trip
 - No commission delays
 - Transparent pricing
@@ -210,7 +210,7 @@ Join thousands supporting the future of digital finance in Egypt!`
 I can help you with:
 ✅ Booking rides in Alexandria, Cairo, Giza, Aswan
 ✅ Understanding Pi cryptocurrency payments
-✅ Becoming a driver (earn 85% of fares)
+✅ Becoming a driver (earn 80% of fares)
 ✅ Joining as an agent (earn 5% commissions)
 ✅ Learning about transparent pricing
 ✅ Signing up for Pi Network (code: aams1969)

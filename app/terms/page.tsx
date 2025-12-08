@@ -72,9 +72,9 @@ export default function TermsPage() {
             <ul className="list-disc pl-6 mt-2 space-y-2">
               <li>Riders pay in Pi cryptocurrency at booking</li>
               <li>Funds are held in blockchain escrow until trip completion</li>
-              <li>Platform fee (10%) goes to TEOS Treasury for civic projects</li>
+              <li>Founder fee (15%) goes to TEOS Treasury for civic projects</li>
               <li>Agent commission (5%) for referrals when applicable</li>
-              <li>Driver earnings (85%) released after successful trip completion</li>
+              <li>Driver earnings (80%) released after successful trip completion</li>
               <li>Disputes handled through transparent blockchain records</li>
             </ul>
           </section>
@@ -111,7 +111,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-semibold mt-8 mb-4">9. Platform Fees</h2>
             <p>
-              The 10% platform fee supports TEOS Treasury initiatives including civic infrastructure, community
+              The 15% founder fee supports TEOS Treasury initiatives including civic infrastructure, community
               development, and platform maintenance. All fee allocations are transparent and auditable on the
               blockchain.
             </p>

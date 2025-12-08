@@ -97,7 +97,7 @@ export default function PrivacyPage() {
             <ul className="list-disc pl-6 mt-2 space-y-2">
               <li>All payments are recorded on the Pi blockchain (immutable and public)</li>
               <li>Transaction histories are auditable by users</li>
-              <li>Escrow splits (10% Treasury, 5% Agent, 85% Driver) are transparent</li>
+              <li>Escrow splits (15% Treasury, 5% Agent, 80% Driver) are transparent</li>
               <li>Personal information is NOT stored on the blockchain</li>
               <li>Only transaction amounts and wallet addresses appear on-chain</li>
             </ul>

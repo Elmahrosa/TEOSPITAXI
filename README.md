@@ -3,16 +3,16 @@
 **Civic-first mobility platform powered by Pi Network**
 
 TEOSPITAXI is a production-ready, Pi-native mobility dApp that provides taxi rides and bike deliveries with transparent governance, secure escrow payments, and automated treasury management.
+
 ## 🛑 PROPRIETARY & CONFIDENTIAL — TEOS EGYPT
+[![Strictly Proprietary](https://img.shields.io/badge/Strictly%20Proprietary-TEOS%20Sovereign%20License-ff0000?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
 
-> Copyright © 2025 Elmahrosa International. All Rights Reserved.
->
-> This material is **NOT open source** and is protected by the **[TEOS Egypt Sovereign License (TESL)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)**.
->
-> Unauthorized use, reproduction, distribution, reverse engineering, or AI model training is **strictly prohibited**.
->
-> Governing law and venue: Cairo, Arab Republic of Egypt.
-
+> Copyright © 2025 Elmahrosa International. All Rights Reserved.  
+> This material is NOT open source and is protected by the TEOS Egypt Sovereign License (TESL).  
+> For the full license text, see [TEOS Egypt Sovereign License (TESL)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md).
+> 
+> **Initial Author:** Elmahrosa International  
+> **Governing law and venue:** Cairo, Arab Republic of Egypt.
 ## Features
 
 - **100% Pi Network Payments** - All transactions use Pi cryptocurrency with escrow protection
